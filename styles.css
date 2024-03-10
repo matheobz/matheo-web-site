@@ -1,0 +1,289 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+   position: relative;
+}
+
+.matheo {
+color: white;
+margin-top: 50px;
+margin-left: 16%;
+font-size: 30px;
+position: relative;
+}
+
+.img-logo{
+  margin-top: 50px;
+  margin-left: 13%;
+  position: relative;
+  height: 20px;
+}
+
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 5.5em!important;
+  margin-top: 1.2% !important;
+  font-weight: 700 !important;
+  position: relative;
+  z-index: 100;
+}
+
+.titre{
+  margin-top: 10%;
+}
+
+.div-prensentation{
+  margin-top: 6em;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 45%;
+  position: relative;
+  z-index: 100;
+  margin-bottom: 8em;
+}
+
+h2 {
+  font-size:2.25rem !important;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700 !important;
+  line-height: 1.5;
+  display: inline-block;
+  background-image: linear-gradient(90deg, #9c4ce0, #f98e86);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.prensentation{
+  color: #ffffff;
+  font-size: 1.34rem !important;
+  margin-bottom: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400 !important;
+  margin-top: 3%;
+}
+
+.arrow {
+  box-sizing: border-box;
+  height: 1vw;
+  width: 1vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.arrow-container {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.button-wrapper {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.button {
+  border-radius: 0.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, .2);
+  padding: 0.75rem 1.5rem 0.85rem;
+  font-weight: 700;
+  font-size: 1.23rem;
+  line-height: 1.5;
+  transition: opacity .2s;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, .4);/* Couleur de fond du bouton au survol */
+  
+}
+
+
+.card {
+  display: flex;
+  background: black !important;
+  margin-top: 7%;
+}
+
+.card-image {
+  border-radius: 50%;
+  margin-right: 15px;
+  height: 75px;
+  width: 75px;
+
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: -5%;
+}
+
+.card-name {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.fleche {
+margin-left: 0.2rem;
+}
+
+.bg-grey{
+  background-color: #25262D !important;
+}
+
+.titre-global-box{
+  color: white;
+  font-size: 3.3rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.box-title{
+  font-size:1.5rem !important;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700 !important;
+  line-height: 1.5;
+  display: inline-block;
+  background-image: linear-gradient(90deg, #9c4ce0, #f98e86);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.box-P{
+  color: #131b3a !important;
+  font-size: 1.4rem !important;
+  margin-bottom: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;font-size: 1rem;
+  font-weight: 400 !important;
+  margin-top: 3%;
+  font-weight: 400 !important;
+}
+
+.box-des-box{
+  display: flex; /* Maintient les colonnes côte à côte */
+  justify-content: space-between; /* Ajoute de l'espace entre les colonnes */
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 3em;
+}
+
+.box-column {
+  display: flex; /* Active Flexbox */
+  flex-direction: column; /* Alignement vertical des enfants */
+  width: 48.5%; /* Assure la cohérence avec div-box-1 et div-box-2 */
+}
+
+.div-box-1, .div-box-2, .div-box-3, .div-box-4 {
+  background-color: white;
+  border-radius: 25px;
+  padding: 4rem;
+  margin-bottom: 6%; /* Ajoute un peu d'espace entre les boîtes dans la même colonne */
+}
+
+hr {
+  height: 1px !important; /* Définit la hauteur de votre hr */
+  background-color: white !important; /* Définit la couleur de fond du hr */
+  opacity: 1 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.footer{
+  background-color: #25262D !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.lineUp {
+  animation: 2s anim-lineUp ease-out;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+
+.scroll {
+  text-align: center;
+	width: 60px;
+	height: 60px;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	position: relative;
+	animation: down 1.5s infinite;
+	-webkit-animation: down 1.5s infinite;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 15px;
+		left: 18px;
+		width: 18px;
+		height: 18px;
+		border-left: 2px solid #ffffff;
+		border-bottom: 2px solid #ffffff;
+		transform: rotate(-45deg);
+	}
+}
